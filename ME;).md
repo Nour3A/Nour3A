@@ -1,0 +1,5 @@
+- 👋 Hi, I’m @Nour3A
+- 👀 I am interested in being a front-end developer
+- 🌱 I’m currently learning C++ and python at school :)
+- 💞️ I’m looking to collaborate
+- 📫 DM me on discord ! : Nour#0514
