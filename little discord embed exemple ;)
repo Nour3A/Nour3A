@@ -1,0 +1,22 @@
+client.on("messageCreate", message => {
+    if (message.author.bot) return;
+ //-help
+    if (message.content === prefix + "help"){
+        const embed = new Discord.MessageEmbed()
+          .setTitle("Liste des commandes")
+          .setColor("#1a3650")
+          .setURL("https://youtu.be/bYHB1HcARn8")
+          .setAuthor("ween#0514", "https://cdn.discordapp.com/attachments/860607246982840380/909454462505074738/ll.PNG")
+          .setThumbnail("https://i.imgur.com/AfFp7pu.png")
+          .addField("N'hésitez pas à me dm si vous rencontrez n'importe quel soucis avec le bot", "ID discord situé au-dessus")
+          .addField("!help", "Affiche la liste des commandes") 
+          .addField("!kick", "Exclut le membre mentionné")
+          .addField("!ban", "Ban le membre mentionné")
+          .addField("!mute", "Permet de rendre muet le membre mentionné")
+          .addField
+          .setTimestamp()
+          
+          message.channel.send ({embeds: [embed]});
+
+       }
+});
